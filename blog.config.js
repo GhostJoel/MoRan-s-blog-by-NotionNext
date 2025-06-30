@@ -40,6 +40,9 @@ const BLOG = {
       'https://cdn.jsdelivr.net/npm/live2d-widget-model-z16/assets/z16.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
   WIDGET_PET_SWITCH_THEME: true, // 点击宠物挂件切换博客主题
 
+  // 樱花飘落特效
+  SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关
+
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
 
