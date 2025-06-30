@@ -34,7 +34,7 @@ const BLOG = {
   CONTACT_YOUTUBE: process.env.NEXT_PUBLIC_CONTACT_YOUTUBE || '', // Youtube主页
 
 // 悬浮挂件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
   WIDGET_PET_LINK:
       process.env.NEXT_PUBLIC_WIDGET_PET_LINK ||
       'https://cdn.jsdelivr.net/npm/live2d-widget-model-z16/assets/z16.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
@@ -68,6 +68,8 @@ const BLOG = {
 
   // 樱花飘落特效
   SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关
+  // 星空雨特效 黑夜模式才会生效
+  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
