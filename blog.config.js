@@ -66,17 +66,19 @@ const BLOG = {
   //MUSIC_PLAYER_METING_ID: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_ID || '60198', // 对应歌单的 id
   //MUSIC_PLAYER_METING_LRC_TYPE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_LRC_TYPE || '1', // 可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）
 
-// 音乐播放插件
-MUSIC_PLAYER: true, // 启用播放器主开关
-MUSIC_PLAYER_VISIBLE: true, // 左下角显示按钮，推荐开启
-MUSIC_PLAYER_AUTO_PLAY: false, // 自动播放（移动端不建议开启）
-MUSIC_PLAYER_SHOW_LRC: false, // 歌词可选，一般网易云不会拉到
-MUSIC_PLAYER_ORDER: 'list', // 播放顺序，list = 顺序播放
-MUSIC_PLAYER_METING: true, // 开启 meting 模式
-MUSIC_PLAYER_METING_SERVER: 'netease', // 网易云
-MUSIC_PLAYER_METING_ID: '13909811255', // 你的歌单 ID
-MUSIC_PLAYER_METING_LRC_TYPE: '0', // 关闭歌词（可选值：0 | 1 | 3）
-MUSIC_PLAYER_AUDIO_LIST: [], // 可为空，meting 模式会覆盖这个列表
+APPLAYER: true, // 须确认存在
+
+MUSIC_PLAYER: true,
+MUSIC_PLAYER_VISIBLE: true,
+MUSIC_PLAYER_AUTO_PLAY: true,
+MUSIC_PLAYER_SHOW_LRC: false,
+MUSIC_PLAYER_ORDER: 'list',
+MUSIC_PLAYER_METING: true,
+MUSIC_PLAYER_METING_SERVER: 'netease',
+MUSIC_PLAYER_METING_ID: '13909811255',
+MUSIC_PLAYER_METING_LRC_TYPE: '0',
+MUSIC_PLAYER_CDN_URL: 'https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js',
+MUSIC_PLAYER_AUDIO_LIST: []
 
   
   // 樱花飘落特效
