@@ -40,56 +40,6 @@ const BLOG = {
       'https://cdn.jsdelivr.net/npm/live2d-widget-model-z16/assets/z16.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models   这是另一个地址  https://github.com/imuncle/live2d
   WIDGET_PET_SWITCH_THEME: false, // 点击宠物挂件切换博客主题
 
-  // 音乐播放插件
-  //MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || true, // 是否使用音乐播放插件
-  //MUSIC_PLAYER_VISIBLE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_VISIBLE || true, // 是否在左下角显示播放和切换，如果使用播放器，打开自动播放再隐藏，就会以类似背景音乐的方式播放，无法取消和暂停
-  //MUSIC_PLAYER_AUTO_PLAY: process.env.NEXT_PUBLIC_MUSIC_PLAYER_AUTO_PLAY || true, // 是否自动播放，不过自动播放时常不生效（移动设备不支持自动播放）
-  //MUSIC_PLAYER_SHOW_LRC: process.env.NEXT_PUBLIC_MUSIC_PLAYER_SHOW_LRC || false, // 是否展示歌词（前提是有配置歌词路径，对 meting 无效）
-  //MUSIC_PLAYER_CDN_URL: process.env.NEXT_PUBLIC_MUSIC_PLAYER_CDN_URL || 'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js',
-  //MUSIC_PLAYER_ORDER: 'list', // 默认播放方式，顺序 list，随机 random
-  //MUSIC_PLAYER_AUDIO_LIST: [ // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-  //  {
-  //    name: 'リナリアが咲いて(姬金鱼草盛开)',
-  //    artist: 'nyamura',
-  //    url: 'https://music.163.com/song/media/outer/url?id=2670370756.mp3',
-  //    cover: 'http://p1.music.126.net/lilIUusjLV9yyGbs72UOxw==/109951170434320743.jpg?param=130y130'
-  //  },
-  //  {
-  //    name: '胸の煙',
-  //    artist: 'ずっと真夜中でいいのに。',
-  //    url: 'https://music.163.com/song/media/outer/url?id=1819308141.mp3',
-  //    cover: 'http://p2.music.126.net/sZWouKjMg7eFCsWC5l8IYQ==/109951165714669526.jpg?param=130y130'
- //   }
- // ],
-  //MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
-  //MUSIC_PLAYER_METING_SERVER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_SERVER || 'netease', // 音乐平台，[netease, tencent, kugou, xiami, baidu]
-  //MUSIC_PLAYER_METING_ID: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_ID || '60198', // 对应歌单的 id
-  //MUSIC_PLAYER_METING_LRC_TYPE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_LRC_TYPE || '1', // 可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）
-
-APPLAYER: true, // 须确认存在
-
-MUSIC_PLAYER: true,
-MUSIC_PLAYER_VISIBLE: true,
-MUSIC_PLAYER_AUTO_PLAY: true,
-MUSIC_PLAYER_SHOW_LRC: false,
-MUSIC_PLAYER_ORDER: 'list',
-MUSIC_PLAYER_METING: true,
-MUSIC_PLAYER_METING_SERVER: 'netease',
-MUSIC_PLAYER_METING_ID: '13909811255',
-MUSIC_PLAYER_METING_LRC_TYPE: '0',
-MUSIC_PLAYER_CDN_URL: 'https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js',
-MUSIC_PLAYER_AUDIO_LIST: []
-
-  
-  // 樱花飘落特效
-  //SAKURA : process.env.NEXT_PUBLIC_SAKURA || true, // 开关
-  // 星空雨特效 黑夜模式才会生效
-  //STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
-  // 鼠标点击烟花特效
-  //FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true, // 开关
-  // 烟花色彩，感谢 https://github.com/Vixcity 提交的色彩
-  //FIREWORKS_COLOR: ['255, 20, 97', '24, 255, 146', '90, 135, 255', '251, 243, 140'],
-
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
 
