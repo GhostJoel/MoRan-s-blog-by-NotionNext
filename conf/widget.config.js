@@ -41,7 +41,7 @@ module.exports = {
       artist: 'nyamura',
       url: 'https://music.163.com/song/media/outer/url?id=2670370756.mp3',
       cover: 'http://p1.music.126.net/lilIUusjLV9yyGbs72UOxw==/109951170434320743.jpg?param=130y130'
-    },More actions
+    },
     {
       name: '胸の煙',
       artist: 'ずっと真夜中でいいのに。',
