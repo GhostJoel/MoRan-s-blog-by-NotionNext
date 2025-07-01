@@ -82,7 +82,7 @@ MUSIC_PLAYER_AUDIO_LIST: []
 
   
   // 樱花飘落特效
-  SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关
+  //SAKURA : process.env.NEXT_PUBLIC_SAKURA || true, // 开关
   // 星空雨特效 黑夜模式才会生效
   STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
   // 鼠标点击烟花特效
