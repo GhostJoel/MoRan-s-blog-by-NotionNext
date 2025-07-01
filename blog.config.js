@@ -86,14 +86,9 @@ MUSIC_PLAYER_AUDIO_LIST: []
   // 星空雨特效 黑夜模式才会生效
   //STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
   // 鼠标点击烟花特效
-  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true, // 开关
+  //FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true, // 开关
   // 烟花色彩，感谢 https://github.com/Vixcity 提交的色彩
-  //FIREWORKS_COLOR: [
-      '255, 20, 97', 
-      '24, 255, 146', 
-      '90, 135, 255', 
-      '251, 243, 140'
-  ],
+  //FIREWORKS_COLOR: ['255, 20, 97', '24, 255, 146', '90, 135, 255', '251, 243, 140'],
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
