@@ -9,7 +9,7 @@ const Style = () => {
     
   // 底色
   .dark body{
-      background-color: black;
+      background-color: darkgrey;
   }
   // 文本不可选取
     .forbid-copy {
@@ -23,11 +23,11 @@ const Style = () => {
   }
   
   #theme-simple .blog-item-title {
-    color: #276077;
+    color: #5555ff;
   }
   
   .dark #theme-simple .blog-item-title {
-    color: #a1a1ff;
+    color: #bcbcff;
   }
   
   .notion {
@@ -39,7 +39,7 @@ const Style = () => {
   /*  菜单下划线动画 */
   #theme-simple .menu-link {
       text-decoration: none;
-      background-image: linear-gradient(#ffa1a1, #a1ffff);
+      background-image: linear-gradient(#ffa1ff, #ffa1ff);
       background-repeat: no-repeat;
       background-position: bottom center;
       background-size: 0 2px;
@@ -48,7 +48,7 @@ const Style = () => {
    
   #theme-simple .menu-link:hover {
       background-size: 100% 2px;
-      color: #dd3333;
+      color: #ffa1a1;
       cursor: pointer;
   }
   
